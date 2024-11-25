@@ -5644,16 +5644,16 @@ font-weight: 400;
   height: 230px; }
 
 .elementor-skin-carousel.elementor-pagination-position-inside .swiper-pagination-fraction,
-.elementor-skin-carousel.elementor-pagination-position-inside .swiper-container-horizontal > .swiper-pagination-bullets, .elementor-skin-coverflow.elementor-pagination-position-inside .swiper-pagination-fraction,
-.elementor-skin-coverflow.elementor-pagination-position-inside .swiper-container-horizontal > .swiper-pagination-bullets {
+.elementor-skin-carousel.elementor-pagination-position-inside .swiper-horizontal > .swiper-pagination-bullets, .elementor-skin-coverflow.elementor-pagination-position-inside .swiper-pagination-fraction,
+.elementor-skin-coverflow.elementor-pagination-position-inside .swiper-horizontal > .swiper-pagination-bullets {
   bottom: 5px; }
 
-.elementor-skin-carousel.elementor-pagination-position-outside .swiper-container, .elementor-skin-coverflow.elementor-pagination-position-outside .swiper-container {
+.elementor-skin-carousel.elementor-pagination-position-outside .swiper, .elementor-skin-coverflow.elementor-pagination-position-outside .swiper {
   padding-bottom: 30px; }
 
 .elementor-skin-carousel.elementor-pagination-position-outside .swiper-pagination-fraction,
-.elementor-skin-carousel.elementor-pagination-position-outside .swiper-container-horizontal > .swiper-pagination-bullets, .elementor-skin-coverflow.elementor-pagination-position-outside .swiper-pagination-fraction,
-.elementor-skin-coverflow.elementor-pagination-position-outside .swiper-container-horizontal > .swiper-pagination-bullets {
+.elementor-skin-carousel.elementor-pagination-position-outside .swiper-horizontal > .swiper-pagination-bullets, .elementor-skin-coverflow.elementor-pagination-position-outside .swiper-pagination-fraction,
+.elementor-skin-coverflow.elementor-pagination-position-outside .swiper-horizontal > .swiper-pagination-bullets {
   bottom: 0; }
 
 .elementor-skin-carousel.elementor-pagination-position-outside .elementor-swiper-button, .elementor-skin-coverflow.elementor-pagination-position-outside .elementor-swiper-button {
@@ -5961,7 +5961,7 @@ font-weight: 400;
   color: #fff;
   cursor: default; }
 
-.swiper-container .elementor-lightbox-content-source {
+.swiper .elementor-lightbox-content-source {
   display: none; }
 
 .swiper-slide {
@@ -6031,7 +6031,7 @@ font-weight: 400;
 .elementor-widget-ee-mb-testimonial-swiper .swiper-slide{
   height: auto; }
 
-.elementor-widget-ee-mb-testimonial-swiper.elementor-pagination-type-bullets .swiper-container, .elementor-widget-ee-mb-testimonial-swiper.elementor-pagination-type-fraction .swiper-container {
+.elementor-widget-ee-mb-testimonial-swiper.elementor-pagination-type-bullets .swiper, .elementor-widget-ee-mb-testimonial-swiper.elementor-pagination-type-fraction .swiper {
   padding-bottom: 40px; }
 
 .elementor-widget-ee-mb-testimonial-swiper .elementor-main-swiper .elementor-swiper-button-prev{

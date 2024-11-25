@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Extensions For Elementor
  * Description: Extend your elementor capability by adding elementor extension.
- * Version: 2.0.37
+ * Version: 2.0.40
  * Text Domain: elementor-extensions
  * Author: petesheppard84
  * Author URI: https://www.idioweb.co.uk/contact-us/

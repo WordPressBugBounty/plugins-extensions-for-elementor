@@ -436,7 +436,7 @@ abstract class Base extends Base_Widget {
 				],
 				'selectors' => [
 					'{{WRAPPER}} .swiper-pagination-bullet' => 'height: {{SIZE}}{{UNIT}}; width: {{SIZE}}{{UNIT}}',
-					'{{WRAPPER}} .swiper-container-horizontal .swiper-pagination-progressbar' => 'height: {{SIZE}}{{UNIT}}',
+					'{{WRAPPER}} .swiper-horizontal .swiper-pagination-progressbar' => 'height: {{SIZE}}{{UNIT}}',
 					'{{WRAPPER}} .swiper-pagination-fraction' => 'font-size: {{SIZE}}{{UNIT}}',
 				],
 				'condition' => [
@@ -478,7 +478,7 @@ abstract class Base extends Base_Widget {
 		$slides_count = count( $settings['slides'] );
 		?>
 		<div class="elementor-swiper">
-			<div class="<?php echo esc_attr( $settings['container_class'] ); ?> swiper-container">
+			<div class="<?php echo esc_attr( $settings['container_class'] ); ?> swiper">
 				<div class="swiper-wrapper">
 					<?php
 					foreach ( $settings['slides'] as $index => $slide ) :

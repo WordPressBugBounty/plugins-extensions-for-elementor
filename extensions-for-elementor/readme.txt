@@ -5,7 +5,7 @@ Tags: elementor, extensions, elements, addons, builder
 Requires at least: 5.0
 Tested up to: 6.5.5
 Requires PHP: 5.6
-Stable tag: 2.0.37
+Stable tag: 2.0.40
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -83,6 +83,12 @@ Your existing elements/content will work with premium version. So you won't lose
 
 
 == Changelog ==
+
+= 2.0.40 - 25/11/24 =
+* Update swiper classes for compatible with new version
+
+= 2.0.39 - 12/11/24 =
+* Temporary Remove Map
 
 = 2.0.37 - 30/09/24 =
 * $title_tag sanitization added
